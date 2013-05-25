@@ -1,0 +1,9 @@
+valid:
+  - "one@example.com"
+  - "first@example.com,second@example.com"
+  - "first@example.com, secondwithspace@example.com"
+  - "first@example.com ,secondwithspace@example.com"
+invalid:
+  - ",,frontcommas@example.com"
+  - "invalidemailaddress,valid@example.com"
+  - "only@example.com spaceseparator@example.com"  

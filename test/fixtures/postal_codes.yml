@@ -1,0 +1,8 @@
+valid:
+  - "1123AA"
+  - "9000ZZ"
+invalid:
+  - "0123AA"
+  - "1123toomanyletters"
+  - "1234"
+  - "123456"
