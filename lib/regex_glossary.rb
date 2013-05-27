@@ -1,4 +1,4 @@
-module RegularExpressions
+module RegexGlossary
   DutchPostalCode = /^[1-9][0-9]{3}\s?[a-z]{2}$/i
 
   # REF: http://fightingforalostcause.net/misc/2006/compare-email-regex.php

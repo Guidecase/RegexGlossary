@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'regular_expressions/version'
+require 'regex_glossary/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "regular_expressions"
-  spec.version       = RegularExpressions::VERSION
-  spec.summary       = "Earlydoc regex library"
-  spec.description   = "This gem contains a module of regular expressions for consistent validation and business logic."
+  spec.name          = "regex_glossary"
+  spec.version       = RegexGlossary::VERSION
+  spec.summary       = "Earlydoc Regular Expression Glossary"
+  spec.description   = "This gem contains a module of regular expressions objects for consistent validation and business logic."
   spec.authors       = ['Earlydoc', 'Travis Dunn']
   spec.email         = 'developer@earlydoc.com'
   spec.homepage      = 'https://www.earlydoc.com'

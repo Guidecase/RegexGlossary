@@ -2,7 +2,7 @@ require 'ansi/code'
 require 'turn'
 require 'yaml'
 require 'minitest/autorun'
-require_relative '../lib/regular_expressions'
+require_relative '../lib/regex_glossary'
 
 class MiniTest::Unit::TestCase
   def load_fixture(name)
